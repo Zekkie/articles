@@ -128,8 +128,10 @@ userMode.findOne({
 	name: "Zekkie",
 	email: "zekkie@test.nl",
 	posts: [
-		id:1,
-		content: "This is sample content"
+		{	
+			id:1,
+			content: "This is sample content"
+		}
 	]
 }
 ```
